@@ -72,10 +72,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.service.pcsync.enable=0 \
     persist.service.lgospd.enable=0
 
-# Better RAM management
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.HOME_APP_ADJ=1
-
 # art optimization
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.image-dex2oat-filter=speed \
