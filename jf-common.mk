@@ -130,10 +130,6 @@ PRODUCT_PACKAGES += \
     e2fsck_static \
     resize2fs_static
 
-# FlipFlap
-PRODUCT_PACKAGES += \
-    FlipFlap
-
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0-impl \
